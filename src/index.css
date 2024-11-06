@@ -1,23 +1,158 @@
-.body {border: 1px purple;}
-.header-container {
-  background-color: red;
-}
-.App {
+@import url("./reset.css");
+
+
+.flex {
   display: flex;
-  flex-direction: column;
-  width: 100vw;
 }
-  .header{
-    display: flex;
-    flex-direction: column;
-  }
-  .fiyat {
-    display: flex;
-    justify-content: space-between;
-    
-  }
-  .p{
-    max-width: 500px;
-    margin:0 auto;
-    text-align: left;
-  }
+
+
+.just-item-center {
+  justify-items: center;
+
+}
+
+.column {
+  flex-direction: column;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.center {
+  margin: 0 auto;
+  
+}
+.max-width {
+  max-width: 550px ;
+  
+}
+
+.min-width {
+  min-width: 360px
+}
+.btn-min-width {
+  min-width: 180px;
+}
+
+.max-height{
+  max-height: 50px;
+}
+
+.between {
+  justify-content: space-between;
+}
+
+.around{
+  justify-content: space-around;
+}
+
+.evenly {
+  justify-content: space-evenly;
+}
+
+
+.wrap {
+  flex-wrap: wrap;
+}
+
+.gap-s {
+  gap: 1rem;
+}
+
+.gap-m {
+  gap: 2rem;
+}
+
+.gap-l {
+  gap: 3rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+
+
+.roboto {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.barlow {
+  font-family: 'Barlow', sans-serif;
+}
+
+.quattrocento {
+  font-family: 'Quattrocento', serif;
+}
+
+.satisfy {
+  font-family: 'Satisfy', cursive;
+}
+
+.sari {
+  color:#FDC913;
+}
+
+.kirmiziBack {
+  background-color:#CE2829 ;
+}
+.kirmizi {
+  color:#CE2829
+}
+
+.light-grey {
+  color: #5F5F5F
+}
+
+.dark-grey {
+ color:  #292929;
+}
+.bej {
+  color:#FAF7F2 ;
+}
+
+.beyaz {
+  color:#FFFFFF;
+}
+
+.bold{
+  font-weight: bold;
+}
+.no-border {
+  border: none;
+}
+
+.border {
+  border: 1px solid #292929;
+}
+
+.padding-l {
+  padding: 2rem 0
+}
+
+.padding-m {
+  padding: 1.5rem 0
+}
+
+.padding-s {
+  padding: 1rem 0
+}
+
+
+
+.font-12 {
+  font-size: 12px;
+}
+.font-18 {
+  font-size: 18px;
+}
+.font-22 {
+  font-size: 22px;
+}
+.font-25 {
+  font-size: 25px;
+}
+.font-30 {
+  font-size: 30px;
+}
