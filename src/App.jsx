@@ -43,14 +43,14 @@ function App() {
 
     <div className='light-grey '>
       {/* kırmızı alan............................................ */}
-      <header className=" kirmiziBack">
+      <header className=" Red-Back">
         <div className="just-item-center bej satisfy bold">
         <h1 className='bold font-30 padding-m'>Teknolojik Yemekler</h1>
         </div>
         
         <div className='center max-width font-12 barlow padding-s'>
-          <button className="kirmiziBack bej no-border">Anasayfa</button>
-          <button className="kirmiziBack bej no-border">Sipariş Oluştur</button>
+          <button className="Red-Back bej no-border">Anasayfa</button>
+          <button className="Red-Back bej no-border">Sipariş Oluştur</button>
         </div>
       </header>
 
@@ -109,6 +109,42 @@ function App() {
           })}
         </form>
       </div>
+      {/*sipariş notu */}
+      <footer> 
+        <div className=' flex column between'>
+      <FormGroup >
+            <Label className='dark-grey bold font-18'>Sipariş Notu</Label>
+            <Input className="font-12" name="not" type="textarea" placeholder='Siparişinize eklemek istediğiniz bir not var mı?'/>
+        </FormGroup>
+      </div>
+      <hr></hr>  
+
+          <div className='flex gap-s between'>
+            <ButtonGroup className='max-height btn-min-width'>
+              <Button color="warning">-</Button>
+              <Button color="link">1</Button>
+              <Button color="warning">+</Button>
+          </ButtonGroup>
+
+            <div className='flex column border min-width'>
+              <div className='padding-m'>
+                <h2 className='font-18 bold text-center'>Sipariş Toplamı</h2>
+                <div className="flex around ">
+              <p>Seçimler</p>
+                  <p>25.00₺</p>
+            </div>
+
+                <div className='red flex around'>
+              <p>Toplam</p>
+                  <p>110.50₺</p>
+                </div>
+              </div>
+              <Button color="warning">SİPARİŞ VER</Button>
+            </div>
+          </div>
+      
+      </footer>
+     
       
       
       </main>
