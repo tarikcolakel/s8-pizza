@@ -96,6 +96,19 @@ function App() {
           </select>
         </div>
       </div>
+      {/* ek malzemeler */}
+      <div>
+        <form>
+          <h2 className='dark-grey bold font-18'>Ek Malzemler</h2>
+          <p>en fazla 10 malzeme seçebilirsiniz. 5₺<span style={{color: "red"}}>*</span></p>
+          { malzemeler.map((malzeme,index)=>{
+              return <FormGroup className='flex' key={index}>
+            <Input id={malzeme} name="malzeme" type="checkbox" onChange={handleChange} checked={formData.malzeme}/>{" "}
+            <Label htmlFor={malzeme}>{malzeme}</Label>
+          </FormGroup>
+          })}
+        </form>
+      </div>
       
       
       </main>
