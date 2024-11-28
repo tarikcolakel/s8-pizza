@@ -11,7 +11,7 @@ export default function HomeT2() {
         <main className="backgroundİmg just-item-center padding-m">
           <div>
             <div>
-              <img className="flex center tekno-img" src="/public/logo.svg"/>
+              <img className="flex center tekno-img" src="/logo.svg"/>
             </div>
             <div className="flex">
             <span className="italik center sari satisfy ">fırsatı kaçırma</span>
